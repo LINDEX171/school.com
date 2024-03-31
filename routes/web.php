@@ -23,6 +23,10 @@ Route::get('/', function () {
 Route::get('/', [AuthController::class, 'login']);
 Route::post('login', [AuthController::class, 'AuthLogin']);
 Route::get('logout', [AuthController::class, 'logout']);
+Route::get('forgot-password', [AuthController::class, 'forgotpassword']);
+Route::post('forgot-password', [AuthController::class, 'PostforgotPassword']);
+Route::get('reset/{token}', [AuthController::class, 'reset']);
+Route::post('reset/{token}', [AuthController::class, 'PostReset']);
 
 
 

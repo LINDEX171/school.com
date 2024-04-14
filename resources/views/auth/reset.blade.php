@@ -30,16 +30,17 @@
           <input type="password" class="form-control" placeholder="Password" name="password" required>
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
+              <span class="fas fa-lock"></span>
             </div>
           </div>
         </div>
 
+        
         <div class="input-group mb-3">
             <input type="password" class="form-control" placeholder="Confirm password" name="cpassword" required>
             <div class="input-group-append">
               <div class="input-group-text">
-                <span class="fas fa-envelope"></span>
+                <span class="fas fa-lock"></span>
               </div>
             </div>
           </div>
